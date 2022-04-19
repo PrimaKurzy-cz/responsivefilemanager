@@ -4,5 +4,5 @@ Library Is For Educational Purposes Only
 
 # Original creator
 
-https://travis-ci.org/trippo/ResponsiveFilemanager
+https://github.com/trippo/ResponsiveFilemanager
 
