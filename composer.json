@@ -1,0 +1,15 @@
+{
+	"name": "primakurzy/responsivefilemanager",
+	"description": "Responsive FileManager for TinyMCE and CKEditor (For Educational Purposes Only)",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Josef Kyrian / PrimaKurzy.cz",
+			"email": "josef.kyrian@primakurzy.cz"
+		}
+	],
+	"license": "MIT",
+	"require": {},
+	"autoload": {
+	}
+}
