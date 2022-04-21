@@ -6,3 +6,28 @@ Library Is For Educational Purposes Only
 
 https://github.com/trippo/ResponsiveFilemanager
 
+## 1. Installation:
+
+The easiest way to install the library is using [Composer](https://getcomposer.org/):
+
+```sh
+composer require primakurzy/responsivefilemanager
+```
+
+
+## 2. Loading:
+
+If you're using Composer use the following include/require statement
+
+```javascript
+<script type="text/javascript">
+	tinymce.init({
+		selector: '#selector',
+		external_plugins: {
+			'responsivefilemanager': '<?php echo dirname($_SERVER['PHP_SELF']); ?>/vendor/primakurzy/responsivefilemanager/tinymce/plugins/responsivefilemanager/plugin.min.js',
+		},
+		external_filemanager_path: "<?php echo dirname($_SERVER['PHP_SELF']); ?>/vendor/primakurzy/responsivefilemanager/filemanager/",
+		filemanager_title: "File manager",
+	});
+</script>
+```
