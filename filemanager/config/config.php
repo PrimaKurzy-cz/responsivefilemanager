@@ -75,7 +75,7 @@ $config = array(
     | with start and final /
     |
     */
-    'upload_dir' => '/'.implode('/', array_slice(explode('/', $_SERVER['SCRIPT_FILENAME']), 3, -5)).'/upload/source/',
+    'upload_dir' => dirname(dirname(dirname(dirname(dirname($_SERVER['PHP_SELF']))))).'/upload/source/',
     /*
     |--------------------------------------------------------------------------
     | relative path from filemanager folder to upload folder
@@ -106,7 +106,7 @@ $config = array(
     | DO NOT put inside upload folder
     |
     */
-    'thumbs_upload_dir' => '/'.implode('/', array_slice(explode('/', $_SERVER['SCRIPT_FILENAME']), 3, -5)).'/upload/thumbs/',
+    'thumbs_upload_dir' => dirname(dirname(dirname(dirname(dirname($_SERVER['PHP_SELF']))))).'/upload/thumbs/',
 
 
     /*
