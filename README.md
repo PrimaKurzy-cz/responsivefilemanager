@@ -17,7 +17,7 @@ composer require primakurzy/responsivefilemanager
 
 ## 2. Loading:
 
-If you're using Composer use the following include/require statement
+Use the following javascript code
 
 ```javascript
 <script type="text/javascript">
