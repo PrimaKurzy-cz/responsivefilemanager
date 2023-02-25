@@ -12,7 +12,7 @@
 
 class UploadHandler
 {
-
+	protected $response;
     protected $options;
 
     // PHP File Upload error message codes:
@@ -1616,6 +1616,6 @@ class UploadHandler
 
     protected function basename($filepath, $suffix = null) {
         $splited = preg_split('/\//', rtrim ($filepath, '/ '));
-        return substr(basename('X'.$splited[count($splited)-1], $suffix), 1);
+        return substr(basename('X'.$splited[count($splited)-1], $suffix ? $suffix : ""), 1);
     }
 }
